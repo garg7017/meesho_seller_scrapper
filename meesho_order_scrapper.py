@@ -44,8 +44,6 @@ login_button = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div[1
 email_input.send_keys("username")  # Replace with actual email
 password_input.send_keys("password")  # Replace with actual password
 
-# email_input.send_keys("garg7017@gmail.com")  # Replace with actual email
-# password_input.send_keys("Admin@123")  # Replace with actual password
 
 login_button.click()
 
